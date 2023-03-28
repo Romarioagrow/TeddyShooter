@@ -1,0 +1,8 @@
+C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\Definitions.TeddyShooter.h
+C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Source\TeddyShooter\GameHUD.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Inc\TeddyShooter\GameHUD.generated.h

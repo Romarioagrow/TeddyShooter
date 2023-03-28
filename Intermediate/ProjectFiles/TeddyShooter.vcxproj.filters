@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TeddyShooter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{10AB8BB2-83AC-427F-A377-50E0C9043C43}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TeddyShooter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TeddyShooterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{72EB9177-EC7D-4C05-9EA1-925679372512}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TeddyShooter">
+      <UniqueIdentifier>{FBB8A8FD-2FC8-4D26-B104-2CB0D3111C3F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TeddyShooter\GameHUD.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\GameHUD.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TeddyShooter\LauncherPawn.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\LauncherPawn.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TeddyShooter\LauncherPlayerController.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\LauncherPlayerController.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TeddyShooter\TeddyShooter.Build.cs">
+      <Filter>Source\TeddyShooter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TeddyShooter\TeddyShooter.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\TeddyShooter.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TeddyShooter\TeddyShooterGameModeBase.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\TeddyShooterGameModeBase.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

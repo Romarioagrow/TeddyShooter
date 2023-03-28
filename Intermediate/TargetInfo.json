@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TeddyShooter",
+			"Path": "C:\\Users\\romar\\Documents\\Unreal Projects\\TeddyShooter\\Source\\TeddyShooter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TeddyShooterEditor",
+			"Path": "C:\\Users\\romar\\Documents\\Unreal Projects\\TeddyShooter\\Source\\TeddyShooterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

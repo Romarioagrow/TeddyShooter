@@ -1,0 +1,17 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/GameModeBase.h"
+#include "TeddyShooterGameModeBase.generated.h"
+
+/**
+ * 
+ */
+UCLASS()
+class TEDDYSHOOTER_API ATeddyShooterGameModeBase : public AGameModeBase
+{
+	GENERATED_BODY()
+	
+};

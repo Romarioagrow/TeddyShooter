@@ -1,0 +1,2 @@
+C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\Definitions.TeddyShooter.h
+C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Source\TeddyShooter\TeddyShooter.h
