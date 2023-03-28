@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TeddyShooter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{10AB8BB2-83AC-427F-A377-50E0C9043C43}</UniqueIdentifier>
+      <UniqueIdentifier>{09811531-656F-4EC3-B576-527221CC5B30}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TeddyShooter.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\TeddyShooterEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{72EB9177-EC7D-4C05-9EA1-925679372512}</UniqueIdentifier>
+      <UniqueIdentifier>{403731B7-253C-41E0-8E0F-E53A83CF66F9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,12 +26,24 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TeddyShooter">
-      <UniqueIdentifier>{FBB8A8FD-2FC8-4D26-B104-2CB0D3111C3F}</UniqueIdentifier>
+      <UniqueIdentifier>{5C2D471A-19E5-45B1-A0C4-FE72D814F62F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TeddyShooter\BadLootActor.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\BadLootActor.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TeddyShooter\GameHUD.cpp">
       <Filter>Source\TeddyShooter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TeddyShooter\GameHUD.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TeddyShooter\GoodLootActor.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\GoodLootActor.h">
       <Filter>Source\TeddyShooter</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TeddyShooter\LauncherPawn.cpp">
@@ -42,6 +56,42 @@
       <Filter>Source\TeddyShooter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TeddyShooter\LauncherPlayerController.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TeddyShooter\LootActor.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\LootActor.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TeddyShooter\LootTeddyBearActor.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\LootTeddyBearActor.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TeddyShooter\NoLootTeddyBearActor.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\NoLootTeddyBearActor.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TeddyShooter\RandomGoodBadLootTeddyBearActor.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\RandomGoodBadLootTeddyBearActor.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TeddyShooter\RandomGoodLootTeddyBearActor.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\RandomGoodLootTeddyBearActor.h">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TeddyShooter\TeddyBearActor.cpp">
+      <Filter>Source\TeddyShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeddyShooter\TeddyBearActor.h">
       <Filter>Source\TeddyShooter</Filter>
     </ClInclude>
     <None Include="..\..\Source\TeddyShooter\TeddyShooter.Build.cs">
