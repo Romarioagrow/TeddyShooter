@@ -1,0 +1,41 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TeddyShooter-0006.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\TeddyShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\BadLootActor.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\GameHUD.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\GoodLootActor.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\LauncherPawn.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\LauncherPlayerController.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\LauncherProjectile.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\LootActor.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\LootTeddyBearActor.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\NoLootTeddyBearActor.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\RandomGoodBadLootTeddyBearActor.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\RandomGoodLootTeddyBearActor.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\TeddyBearActor.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\TeddyBearSpawnerActor.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\TeddyShooter.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\TeddyShooterGameModeBase.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\BadLootActor.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\GameHUD.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\GoodLootActor.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\LauncherPawn.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\LauncherPlayerController.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\LauncherProjectile.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\LootActor.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\LootTeddyBearActor.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\NoLootTeddyBearActor.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\RandomGoodBadLootTeddyBearActor.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\RandomGoodLootTeddyBearActor.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\TeddyBearActor.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\TeddyBearSpawnerActor.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\TeddyShooter.init.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\TeddyShooterGameModeBase.gen.cpp.obj"
+"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\Default.rc2.res"
+/OUT:"C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\UE4Editor-TeddyShooter-0006.lib"

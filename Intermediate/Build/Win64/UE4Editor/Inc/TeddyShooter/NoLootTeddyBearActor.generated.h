@@ -36,7 +36,7 @@ public: \
 
 #define TeddyShooter_Source_TeddyShooter_NoLootTeddyBearActor_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ANoLootTeddyBearActor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ANoLootTeddyBearActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANoLootTeddyBearActor) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANoLootTeddyBearActor); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANoLootTeddyBearActor); \
@@ -48,8 +48,6 @@ public:
 
 
 #define TeddyShooter_Source_TeddyShooter_NoLootTeddyBearActor_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ANoLootTeddyBearActor() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ANoLootTeddyBearActor(ANoLootTeddyBearActor&&); \

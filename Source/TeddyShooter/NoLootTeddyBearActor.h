@@ -13,5 +13,14 @@ UCLASS()
 class TEDDYSHOOTER_API ANoLootTeddyBearActor : public ATeddyBearActor
 {
 	GENERATED_BODY()
-	
+
+public:
+	ANoLootTeddyBearActor();
+
+protected:
+	virtual void ProcessProjectileCollision() override;
+
+	virtual void BeginPlay() override;
+
+	virtual void Tick(float DeltaTime) override;
 };

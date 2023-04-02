@@ -1,6 +1,12 @@
 C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Development\TeddyShooter\Definitions.TeddyShooter.h
 C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Source\TeddyShooter\RandomGoodLootTeddyBearActor.h
 C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Source\TeddyShooter\LootTeddyBearActor.h
+C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Source\TeddyShooter\GoodLootActor.h
+C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Source\TeddyShooter\LootActor.h
+C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Inc\TeddyShooter\LootActor.generated.h
+C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Inc\TeddyShooter\GoodLootActor.generated.h
+C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Source\TeddyShooter\BadLootActor.h
+C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Inc\TeddyShooter\BadLootActor.generated.h
 C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Source\TeddyShooter\TeddyBearActor.h
 C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Inc\TeddyShooter\TeddyBearActor.generated.h
 C:\Users\romar\Documents\Unreal Projects\TeddyShooter\Intermediate\Build\Win64\UE4Editor\Inc\TeddyShooter\LootTeddyBearActor.generated.h

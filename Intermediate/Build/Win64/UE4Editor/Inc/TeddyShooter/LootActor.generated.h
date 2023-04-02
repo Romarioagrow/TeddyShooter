@@ -8,20 +8,31 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef TEDDYSHOOTER_LootActor_generated_h
 #error "LootActor.generated.h already included, missing '#pragma once' in LootActor.h"
 #endif
 #define TEDDYSHOOTER_LootActor_generated_h
 
 #define TeddyShooter_Source_TeddyShooter_LootActor_h_12_SPARSE_DATA
-#define TeddyShooter_Source_TeddyShooter_LootActor_h_12_RPC_WRAPPERS
-#define TeddyShooter_Source_TeddyShooter_LootActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define TeddyShooter_Source_TeddyShooter_LootActor_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnOverlapBegin);
+
+
+#define TeddyShooter_Source_TeddyShooter_LootActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnOverlapBegin);
+
+
 #define TeddyShooter_Source_TeddyShooter_LootActor_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALootActor(); \
 	friend struct Z_Construct_UClass_ALootActor_Statics; \
 public: \
-	DECLARE_CLASS(ALootActor, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TeddyShooter"), NO_API) \
+	DECLARE_CLASS(ALootActor, AActor, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/TeddyShooter"), NO_API) \
 	DECLARE_SERIALIZER(ALootActor)
 
 
@@ -30,14 +41,14 @@ private: \
 	static void StaticRegisterNativesALootActor(); \
 	friend struct Z_Construct_UClass_ALootActor_Statics; \
 public: \
-	DECLARE_CLASS(ALootActor, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TeddyShooter"), NO_API) \
+	DECLARE_CLASS(ALootActor, AActor, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/TeddyShooter"), NO_API) \
 	DECLARE_SERIALIZER(ALootActor)
 
 
 #define TeddyShooter_Source_TeddyShooter_LootActor_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ALootActor(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ALootActor) \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ALootActor) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ALootActor); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALootActor); \
 private: \
@@ -55,7 +66,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ALootActor); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALootActor); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ALootActor)
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(ALootActor)
 
 
 #define TeddyShooter_Source_TeddyShooter_LootActor_h_12_PRIVATE_PROPERTY_OFFSET

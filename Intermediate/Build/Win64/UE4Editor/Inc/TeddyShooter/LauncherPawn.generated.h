@@ -13,10 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TEDDYSHOOTER_LauncherPawn_generated_h
 
-#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_SPARSE_DATA
-#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_RPC_WRAPPERS
-#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_INCLASS_NO_PURE_DECLS \
+#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_SPARSE_DATA
+#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execFire);
+
+
+#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFire);
+
+
+#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALauncherPawn(); \
 	friend struct Z_Construct_UClass_ALauncherPawn_Statics; \
@@ -25,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ALauncherPawn)
 
 
-#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_INCLASS \
+#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesALauncherPawn(); \
 	friend struct Z_Construct_UClass_ALauncherPawn_Statics; \
@@ -34,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(ALauncherPawn)
 
 
-#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_STANDARD_CONSTRUCTORS \
+#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ALauncherPawn(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ALauncherPawn) \
@@ -47,7 +55,7 @@ private: \
 public:
 
 
-#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_ENHANCED_CONSTRUCTORS \
+#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ALauncherPawn(ALauncherPawn&&); \
@@ -58,28 +66,32 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ALauncherPawn)
 
 
-#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_PRIVATE_PROPERTY_OFFSET
-#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_9_PROLOG
-#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_GENERATED_BODY_LEGACY \
+#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MovementSpeed() { return STRUCT_OFFSET(ALauncherPawn, MovementSpeed); } \
+	FORCEINLINE static uint32 __PPO__ProjectileClass() { return STRUCT_OFFSET(ALauncherPawn, ProjectileClass); }
+
+
+#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_11_PROLOG
+#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_PRIVATE_PROPERTY_OFFSET \
-	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_SPARSE_DATA \
-	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_RPC_WRAPPERS \
-	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_INCLASS \
-	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_STANDARD_CONSTRUCTORS \
+	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_PRIVATE_PROPERTY_OFFSET \
+	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_SPARSE_DATA \
+	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_RPC_WRAPPERS \
+	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_INCLASS \
+	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_GENERATED_BODY \
+#define TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_PRIVATE_PROPERTY_OFFSET \
-	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_SPARSE_DATA \
-	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_INCLASS_NO_PURE_DECLS \
-	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_12_ENHANCED_CONSTRUCTORS \
+	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_PRIVATE_PROPERTY_OFFSET \
+	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_SPARSE_DATA \
+	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_INCLASS_NO_PURE_DECLS \
+	TeddyShooter_Source_TeddyShooter_LauncherPawn_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

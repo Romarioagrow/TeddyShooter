@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeRandomGoodLootTeddyBearActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARandomGoodLootTeddyBearActor, 1286836694);
+	IMPLEMENT_CLASS(ARandomGoodLootTeddyBearActor, 3081008087);
 	template<> TEDDYSHOOTER_API UClass* StaticClass<ARandomGoodLootTeddyBearActor>()
 	{
 		return ARandomGoodLootTeddyBearActor::StaticClass();

@@ -3,3 +3,12 @@
 
 #include "BadLootActor.h"
 
+void ABadLootActor::BeginPlay()
+{
+	Super::BeginPlay();
+}
+
+void ABadLootActor::ProcessTeddyBearCollision()
+{
+	AddLootDestroyPointsToHud();
+}

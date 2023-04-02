@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TEDDYSHOOTER_RandomGoodLootTeddyBearActor_generated_h
 
-#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_SPARSE_DATA
-#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_RPC_WRAPPERS
-#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_INCLASS_NO_PURE_DECLS \
+#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_SPARSE_DATA
+#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_RPC_WRAPPERS
+#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesARandomGoodLootTeddyBearActor(); \
 	friend struct Z_Construct_UClass_ARandomGoodLootTeddyBearActor_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ARandomGoodLootTeddyBearActor)
 
 
-#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_INCLASS \
+#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesARandomGoodLootTeddyBearActor(); \
 	friend struct Z_Construct_UClass_ARandomGoodLootTeddyBearActor_Statics; \
@@ -34,9 +34,9 @@ public: \
 	DECLARE_SERIALIZER(ARandomGoodLootTeddyBearActor)
 
 
-#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_STANDARD_CONSTRUCTORS \
+#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ARandomGoodLootTeddyBearActor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ARandomGoodLootTeddyBearActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ARandomGoodLootTeddyBearActor) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ARandomGoodLootTeddyBearActor); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ARandomGoodLootTeddyBearActor); \
@@ -47,9 +47,7 @@ private: \
 public:
 
 
-#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ARandomGoodLootTeddyBearActor() { }; \
+#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ARandomGoodLootTeddyBearActor(ARandomGoodLootTeddyBearActor&&); \
@@ -60,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ARandomGoodLootTeddyBearActor)
 
 
-#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_PRIVATE_PROPERTY_OFFSET
-#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_12_PROLOG
-#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_GENERATED_BODY_LEGACY \
+#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_PRIVATE_PROPERTY_OFFSET
+#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_10_PROLOG
+#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_PRIVATE_PROPERTY_OFFSET \
-	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_SPARSE_DATA \
-	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_RPC_WRAPPERS \
-	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_INCLASS \
-	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_STANDARD_CONSTRUCTORS \
+	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_PRIVATE_PROPERTY_OFFSET \
+	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_SPARSE_DATA \
+	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_RPC_WRAPPERS \
+	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_INCLASS \
+	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_GENERATED_BODY \
+#define TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_PRIVATE_PROPERTY_OFFSET \
-	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_SPARSE_DATA \
-	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_INCLASS_NO_PURE_DECLS \
-	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_15_ENHANCED_CONSTRUCTORS \
+	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_PRIVATE_PROPERTY_OFFSET \
+	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_SPARSE_DATA \
+	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_INCLASS_NO_PURE_DECLS \
+	TeddyShooter_Source_TeddyShooter_RandomGoodLootTeddyBearActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

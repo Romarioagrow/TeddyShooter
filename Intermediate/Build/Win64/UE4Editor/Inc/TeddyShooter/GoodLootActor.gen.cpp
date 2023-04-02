@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeGoodLootActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGoodLootActor, 1985294864);
+	IMPLEMENT_CLASS(AGoodLootActor, 3025648001);
 	template<> TEDDYSHOOTER_API UClass* StaticClass<AGoodLootActor>()
 	{
 		return AGoodLootActor::StaticClass();

@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeTeddyShooter_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x16EAFE05,
-				0x57ACB006,
+				0xB9FA4BC2,
+				0x233C6EA9,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

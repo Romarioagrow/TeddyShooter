@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -13,5 +11,14 @@ UCLASS()
 class TEDDYSHOOTER_API ARandomGoodLootTeddyBearActor : public ALootTeddyBearActor
 {
 	GENERATED_BODY()
-	
+
+public:
+	ARandomGoodLootTeddyBearActor();
+
+protected:
+	virtual void BeginPlay() override;
+
+	virtual void ProcessProjectileCollision() override;	
+
+	virtual void Tick(float DeltaTime) override;
 };

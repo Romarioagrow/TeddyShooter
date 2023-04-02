@@ -3,4 +3,5 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
+#include "GameFramework/GameModeBase.h"
+#include "TeddyShooterGameModeBase.generated.h"
